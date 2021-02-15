@@ -1,6 +1,6 @@
-##Logistic Regression
+#Logistic Regression
 
-Question 1
+**Question 1**
 
 Suppose that you have trained a logistic regression classifier, and it outputs on a new example x a prediction hθ(x) = 0.7. This means (check all that apply)
 
@@ -10,12 +10,12 @@ Suppose that you have trained a logistic regression classifier, and it outputs o
 + Our estimate for P(y=0|x;\theta)P(y=0∣x;θ) is 0.7.   
 
 
-Solution
+**Solution**
 
 Estimate for P(y=1|x;θ) is 0.7, so estimate for P(y=0|x;θ) is 0.3
 
 
-Question 2
+**Question 2**
 
 Suppose you have the following training set, and fit a logistic regression classifier hθ(x)=g(θ0+θ1x1+θ2x2). Which of the following are true? Check all that apply.
 
@@ -27,7 +27,7 @@ Suppose you have the following training set, and fit a logistic regression class
 
 + Because the positive and negative examples cannot be separated using a straight line, linear regression will perform as well as logistic regression on this data.
 
-Solution
+**Solution**
 
 1. True. Adding polynomial features can only improve fitness of the data.
 
@@ -37,7 +37,7 @@ Solution
 
 4. False. This data is for classification, not prediction which means linear regression will not perform as well as logistic regression on the data.
 
-Question 4
+**Question 4**
 
 Which of the following statements are true? Check all that apply.
 
@@ -51,7 +51,7 @@ Which of the following statements are true? Check all that apply.
 
 + Since we train one classifier when there are two classes, we train two classifiers when there are three classes (and we do one-vs-all classification).  
 
-Solution
+**Solution****
 
 - False. The cost function for logistic regression is convex, so gradient descent will ALWAYS converge to global minimum.
 
