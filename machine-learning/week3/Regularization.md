@@ -1,6 +1,6 @@
-#Regularization
+# Regularization
 
-**Question 1**
+##Question 1
 
 You are training a classification model with logistic regression. Which of the following statements are true? Check all that apply.
 
@@ -24,13 +24,13 @@ You are training a classification model with logistic regression. Which of the f
 4. False. Regularization can underfit the training set and will not result in better performance on examples not in the training set.
 
 
-**Question 2**
+##Question 2
 
 **Solution**
 
 Theta that has smaller value corresponds to lambda = 1, since bigger lambda can help prevent overfitting on the training set.
 
-**Question 3**
+##Question 3
 
 Which of the following statements about regularization are true? Check all that apply
 
@@ -52,7 +52,7 @@ Which of the following statements about regularization are true? Check all that 
 
 4. True. Adding regularization doesn't always guarantee better performance.
 
-**Question 4**
+##Question 4
 
 In which one of the following figures do you think the hypothesis has overfit the training set?
 
@@ -60,7 +60,7 @@ In which one of the following figures do you think the hypothesis has overfit th
 
 1. Because it seems to fit for every examples in the graph but it is a wiggly curve and cannot guarantee it will fit for the newly introduced data.
 
-**Question 5**
+##Question 5
 
 In which one of the following figures do you think the hypothesis has underfit the training set?
 
