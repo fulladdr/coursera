@@ -4,10 +4,10 @@
 
 Suppose that you have trained a logistic regression classifier, and it outputs on a new example x a prediction hθ(x) = 0.7. This means (check all that apply)
 
-+ Our estimate for P(y=1|x;\theta)P(y=1∣x;θ) is 0.3.
-+ Our estimate for P(y=1|x;\theta)P(y=1∣x;θ) is 0.7.   
-+ Our estimate for P(y=0|x;\theta)P(y=0∣x;θ) is 0.3.   
-+ Our estimate for P(y=0|x;\theta)P(y=0∣x;θ) is 0.7.   
++ Our estimate for P(y=1|x;θ)P(y=1∣x;θ) is 0.3.
++ Our estimate for P(y=1|x;θ)P(y=1∣x;θ) is 0.7.   
++ Our estimate for P(y=0|x;θ)P(y=0∣x;θ) is 0.3.   
++ Our estimate for P(y=0|x;θ)P(y=0∣x;θ) is 0.7.   
 
 
 **Solution**
@@ -45,13 +45,13 @@ Which of the following statements are true? Check all that apply.
 
 + Linear regression always works well for classification if you classify by using a threshold on the prediction made by linear regression.
 
-+ The cost function J(\theta)J(θ) for logistic regression trained with m \geq 1m≥1 examples is always greater than or equal to zero. 
++ The cost function J(θ) for logistic regression trained with m \geq 1m≥1 examples is always greater than or equal to zero. 
 
 + The sigmoid function g(z) = \frac{1}{1 + e^{-z}}g(z)= 1+e −z1 is never greater than one ( >1 >1).   
 
 + Since we train one classifier when there are two classes, we train two classifiers when there are three classes (and we do one-vs-all classification).  
 
-**Solution****
+**Solution**
 
 - False. The cost function for logistic regression is convex, so gradient descent will ALWAYS converge to global minimum.
 
