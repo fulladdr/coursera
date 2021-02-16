@@ -1,6 +1,7 @@
 # Regularization
 
-**Question 1**
+## Question 1
+
 Which of the following statements are true? Check all that apply.
 
 + The activation values of the hidden units in a neural network, with the sigmoid activation function applied at every layer, are always in the range (0, 1). 
@@ -21,7 +22,8 @@ Which of the following statements are true? Check all that apply.
 
 + False. XOR function needs at least three layers.
 
-**Question 2**
+## Question 2
+
 Consider the following neural network which takes two binary-valued inputs x1,x2∈{0,1} and outputs hΘ(x). Which of the following logical functions does it (approximately) compute?
 
 **Solution**
@@ -33,7 +35,8 @@ when x1=1, x2=1 hΘ(x)=g(10)~=1
 
 So the answer is AND
 
-**Question 3**
+##Question 3
+
 Consider the neural network given below. Which of the following equations correctly computes the activation a1(3)? Note: g(z) is the sigmoid activation function.
 
 **Solution**
